@@ -1,6 +1,6 @@
-# Tech Reminders
+# Web stuff in a nutshell
 
-## Project made by myself for myself
+## Made by myself for myself
 
 I wanted to group here some comments and examples about things i learned some time ago, that I can just get'in and make quick refresh.
 
