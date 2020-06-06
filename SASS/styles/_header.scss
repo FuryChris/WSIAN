@@ -1,0 +1,62 @@
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+// // mixins
+// header {
+//     @include flexCenter(column, rgba(255, 0, 0, 0.295));
+//     height: 100vh;
+//     color: $textColor;
+
+//     button {
+//         background-color: $primaryBtn;
+//         color: white;
+
+//         &:hover {
+//             background: rgb(206, 148, 148);
+//             color: black;
+//         }
+
+//         &::before {
+//             content: "I sayoo ";
+//         }
+
+//         &::after {
+//             content: " my love.";
+//         }
+//     }
+// }
+
+header {
+    height: 100vh;
+    color: $textColor;
+    background-color: lightblue;
+
+    button {
+        background-color: $primaryBtn;
+        color: white;
+
+        &:hover {
+            background: rgb(206, 148, 148);
+            color: black;
+        }
+
+        &::before {
+            content: "I sayoo ";
+        }
+
+        &::after {
+            content: " my love.";
+        }
+    }
+}

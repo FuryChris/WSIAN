@@ -1,0 +1,17 @@
+@import "./variables";
+@import "./header";
+
+
+.contact {
+    @extend header; // inheirit all styles from header
+    background-color: rgba(136, 12, 12, 0.39);
+    // // - + / *
+    width: 80% + 20%;
+    // // mixin :) V (something like / functions)
+    // @include flexCenter(row, rgba(0, 0, 255, 0.308));
+    // //     background: $primaryBtn;
+
+    // //     :hover {
+    // //         background-color: lightblue;
+    //     }
+}

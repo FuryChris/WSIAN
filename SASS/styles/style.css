@@ -1,0 +1,35 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+}
+
+header, .contact {
+  height: 100vh;
+  color: #af1d1d;
+  background-color: lightblue;
+}
+
+header button, .contact button {
+  background-color: black;
+  color: white;
+}
+
+header button:hover, .contact button:hover {
+  background: #ce9494;
+  color: black;
+}
+
+header button::before, .contact button::before {
+  content: "I sayoo ";
+}
+
+header button::after, .contact button::after {
+  content: " my love.";
+}
+
+.contact {
+  background-color: rgba(136, 12, 12, 0.39);
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
